@@ -2,19 +2,19 @@
 
 const questions = [
   {
-    question: "In what year did the long-playing (LP) vinyl record debut?",
-    options: ["1948", "1963", "1982", "1999"],
+    question: "In what year did Taylor Swift debut her first album?",
+    options: ["2000", "2001", "2002", "2003"],
     answer: 0
   },
   {
-    question: "Which format did Philips introduce in 1963?",
-    options: ["Compact disc", "Cassette tape", "MP3", "8-track tape"],
-    answer: 1
+    question: "What is Dr.Dre known for?",
+    options: ["Singing", "Rapping", "Producer", "DJ"],
+    answer: 4
   },
   {
-    question: "In what year did compact discs (CDs) go on sale commercially?",
-    options: ["1972", "1982", "1992", "2002"],
-    answer: 1
+    question: "What song made Drake famous?",
+    options: ["God's Plan", "Nice for What", "Jaded", "Started from the Bottom"],
+    answer: 4
   }
 ];
 
