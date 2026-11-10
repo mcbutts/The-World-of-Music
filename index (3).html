@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The World of Music - Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">The World of <span>Music</span></div>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="originators.html">Originators</a></li>
+        <li><a href="current.html">Current</a></li>
+        <li><a href="team.html">Meet the Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Welcome to <em>The World of Music</em></h1>
+      <p class="intro">This site tells the story of how music has evolved, from early recordings to today's streaming. You'll learn about the genres, artists, and technology that shaped the way we listen, and you might discover a new artist or fact along the way.</p>
+    </section>
+
+    <section>
+      <h2>What's inside</h2>
+      <div class="card-grid">
+        <a class="card card-link" href="history.html">
+          <h3>History</h3>
+          <p>A timeline of how music has been recorded, sold, and shared.</p>
+        </a>
+        <a class="card card-link" href="originators.html">
+          <h3>Originators</h3>
+          <p>Producers and performers who changed the sound of music.</p>
+        </a>
+        <a class="card card-link" href="current.html">
+          <h3>Current</h3>
+          <p>Popular musicians, genres, and how social media shapes what we hear.</p>
+        </a>
+        <a class="card card-link" href="contact.html">
+          <h3>Contact</h3>
+          <p>How to reach the creator of this site.</p>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Music trivia quiz</h2>
+      <div class="quiz" id="quiz">
+        <p class="quiz-question" id="quiz-question" aria-live="polite"></p>
+        <ul class="quiz-options" id="quiz-options"></ul>
+        <p class="quiz-feedback" id="quiz-feedback" aria-live="polite"></p>
+        <p class="quiz-result" id="quiz-result" aria-live="polite"></p>
+        <button id="quiz-next" class="btn" type="button" hidden>Next question</button>
+        <button id="quiz-restart" class="btn" type="button" hidden>Try again</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>The World of Music, an educational music history project.</p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
